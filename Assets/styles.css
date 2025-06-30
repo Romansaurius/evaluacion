@@ -23,9 +23,16 @@ body {
     border: 1px solid #ccc;
     padding: 8px 15px;
     border-radius: 20px;
-    white-space: nowrap;
 }
 
+.tob-bar{
+
+    background-color: #d1cbcb;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 
 h1 {
