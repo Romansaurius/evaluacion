@@ -18,7 +18,7 @@ body {
 }
 
 .filtro-boton {
-    background-color: #d1cbcb;
+    background-color: white;
     color: #333;
     border: 1px solid #ccc;
     padding: 8px 15px;
@@ -27,7 +27,7 @@ body {
 
 .tob-bar{
 
-    background-color: #d1cbcb;
+    background-color: #7a7373;
     color: #333;
     border: 1px solid #ccc;
     padding: 5px;
