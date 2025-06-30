@@ -50,5 +50,44 @@ h1 {
 }
 
 
+.cuadricula-productos {
+    display: grid;
+    gap: 20px;
+    padding: 0;
+}
+
+.tarjeta-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.tarjeta-producto img {
+    max-width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.nombre-producto {
+    font-size: 12px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.precio-producto {
+    font-size: 8px;
+    font-weight: bold;
+    color: #ff4500;
+    margin-bottom: 5px;
+}
+
+
 
  
