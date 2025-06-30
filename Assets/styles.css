@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #FF9933;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -15,9 +15,17 @@ body {
     background-color: white;
     padding: 0;
     width: 100vh;
-    
-    
 }
+
+.filtro-boton {
+    background-color: #d1cbcb;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
 
 
 h1 {
