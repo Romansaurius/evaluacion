@@ -25,6 +25,14 @@ body {
     border-radius: 20px;
 }
 
+
+.filtro-boton-color {
+    background-color:  #F9B023;;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
 .tob-bar{
 
     background-color: #7a7373;
@@ -40,5 +48,7 @@ h1 {
     font-size: 32px;
     margin-bottom: 40px;
 }
+
+
 
  
