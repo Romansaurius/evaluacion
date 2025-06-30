@@ -25,6 +25,13 @@ body {
     border-radius: 20px;
 }
 
+.iconos-derecha{
+    display: flex;
+
+
+
+}
+
 
 .filtro-boton-color {
     background-color:  #F9B023;;
@@ -34,7 +41,6 @@ body {
     border-radius: 20px;
 }
 .tob-bar{
-
     background-color: #7a7373;
     color: #333;
     border: 1px solid #ccc;
@@ -70,8 +76,8 @@ h1 {
 }
 
 .tarjeta-producto img {
-    max-width: 100px;
-    height: 100px;
+    max-width: 130px;
+    height: 130px;
     object-fit: contain;
     margin-bottom: 10px;
 }
