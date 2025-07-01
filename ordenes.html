@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Órdenes</title>
+    <link rel="stylesheet" href="Assets/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="order-header">
+        <a href="index.html" class="back-arrow">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1>Orders</h1>
+    </header>
+
+    <main class="order-main-content">
+        <div class="order-card current-order">
+            <div class="order-item-summary">
+                <img src="Assets/img/orange.png" alt="Fresh Orange" class="item-thumbnail">
+                <div class="item-details">
+                    <p class="item-name">Fresh Orange</p>
+                    <p class="item-price">$7.90</p>
+                </div>
+                <p class="order-id">ID: #765433</p>
+            </div>
+            <div class="delivery-info">
+                <img src="Assets/img/delivery_truck.png" alt="Delivery Truck" class="delivery-image">
+                <div class="delivery-text-area">
+                    <p class="delivery-status-message">Your Oranges are on the way</p>
+                    <button class="track-order-button">Track Order</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="order-list">
+            <div class="order-card past-order">
+                <img src="Assets/img/banana.png" alt="Bananas" class="item-thumbnail">
+                <div class="item-details">
+                    <p class="item-name">Bananas</p>
+                    <p class="item-price">$7.90</p>
+                    <p class="order-date">02/10/2021</p>
+                </div>
+                <p class="order-id">ID: #765433</p>
+                <span class="order-status-badge success">Success</span>
+            </div>
+
+            <div class="order-card past-order">
+                <img src="Assets/img/orange.png" alt="Orange" class="item-thumbnail">
+                <div class="item-details">
+                    <p class="item-name">Orange</p>
+                    <p class="item-price">$7.90</p>
+                    <p class="order-date">02/10/2021</p>
+                </div>
+                <p class="order-id">ID: #765433</p>
+                <span class="order-status-badge success">Success</span>
+            </div>
+
+            <div class="order-card past-order">
+                <img src="Assets/img/apple.png" alt="Apple" class="item-thumbnail">
+                <div class="item-details">
+                    <p class="item-name">Apple</p>
+                    <p class="item-price">$7.90</p>
+                    <p class="order-date">02/10/2021</p>
+                </div>
+                <p class="order-id">ID: #765433</p>
+                <span class="order-status-badge success">Success</span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
