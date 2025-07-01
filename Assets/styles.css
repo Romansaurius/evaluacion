@@ -3,11 +3,30 @@ body {
     margin: 0;
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.main-header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.header h3 {
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.fa{
+
+    color: #F9B023;
 }
 
 
@@ -15,6 +34,11 @@ body {
     background-color: white;
     padding: 0;
     width: 100vh;
+}
+
+
+.seccion-filtros{
+    width: 100%;
 }
 
 .filtro-boton {
@@ -25,12 +49,22 @@ body {
     border-radius: 20px;
 }
 
-.iconos-derecha{
+.iconos-derecha {
     display: flex;
-
-
-
+    gap: 20px;
 }
+
+
+.icono-carrito {
+    display: flex;
+    align-items: center;
+}
+
+.icono-buscador {
+    display: flex;
+    align-items: center;
+}
+
 
 
 .filtro-boton-color {
@@ -40,7 +74,10 @@ body {
     padding: 8px 15px;
     border-radius: 20px;
 }
-.tob-bar{
+
+
+.top-bar{
+
     background-color: #7a7373;
     color: #333;
     border: 1px solid #ccc;
